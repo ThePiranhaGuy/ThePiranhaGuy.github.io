@@ -21,13 +21,16 @@
 
     <div id="content">
       <div class="container">
-        <div class="Error">
-          <h1 class="Error-title">Sorry but that's a NO-GO! </h1><br>
-          <div class="Error-content">
+        <div class="msg">
+          <h1 class="msg-title">Wanna talk? Just type in Below. </h1><br>
+          <div class="msg-form">
             <p>
-              <h3>The page you're looking for does not exist.</h3><br>
-              If that bothers you, you may yell at the nearest thrash-can. <br>
-               :) <br>
+              <form action="file.noaccess" method="get">
+                <input name="message" placeholder="Don't be shy! Type in." size="80" required>
+                 
+                <br>
+                <button name="Submit" title="Submit.">Submit</button>
+              </form>
             </p>
           </div>
         </div>

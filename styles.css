@@ -1,9 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 body{
-  color: #555;
-  /*background-color: black;*/
-  margin: 0;font-family: 'Montserrat',sans-serif;
+  color: #999;
+  background-color: #111;
+  margin: 0;font-family: 'ubuntu',sans-serif;
 }
 
 #header{
@@ -93,7 +91,7 @@ a:hover{
 
 }
 .post-container:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #121212;
 }
 h1,h2,h3,h4{
   color: : #333;
@@ -102,7 +100,28 @@ p{
   line-height: 1.5;
 }
 
-.about{
+.about,.Error{
   text-align: center;
 }
 
+input{
+  background-color: inherit;
+  height: 100px;
+  text-align: justify;
+  color: white;
+  border-color: #1abc9c;
+  caret-color: #1abc9c;
+  font-size: 12;
+  }
+  button{
+    
+    background-color: inherit;
+    border-color: #1abc9c;
+    color: #1abc9c;
+    margin-top: 10px;
+  }
+button:hover{
+  color: grey;
+  border-color: grey;
+
+}
