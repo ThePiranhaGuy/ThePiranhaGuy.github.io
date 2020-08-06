@@ -1,13 +1,14 @@
 body{
   color: #999;
   background-color: #111;
-  margin: 0;font-family: 'ubuntu',sans-serif;
+  margin: 0;
+  font-family: 'Helvica',sans-serif;
 }
 
 #header{
   background-color: #1abc9c;
-  height: 150px;
-  line-height: 150px;
+  height: 100px;
+  line-height: 100px;
 }
 #header-title{
   display: block;
@@ -91,7 +92,7 @@ a:hover{
 
 }
 .post-container:nth-child(even) {
-  background-color: #121212;
+  background-color: #131313;
 }
 h1,h2,h3,h4{
   color: : #333;
@@ -125,3 +126,37 @@ button:hover{
   border-color: grey;
 
 }
+
+#header, #footer {
+ padding: 40px;
+ }
+
+#longread{
+ margin: 0 100px 100px 0;
+ padding: 50px 100px 50px 100px;
+ text-align: left;
+ }
+ 
+ .subtitle{
+  padding-top: 60px;
+  font-style: italic;
+ }
+ .post-desc {
+ text-align: right ;
+ float : right ;
+ font-style : italic ;
+ } 
+ 
+ #sig{
+  float: right;
+  font-family: "trebuchet ms";
+  font-size:18;
+  padding-right: 30px;
+  }
+  
+ .picture img {
+  text-align: center;
+  
+ }
+
+ 
