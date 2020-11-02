@@ -1,8 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 body{
   color: #999;
   background-color: #111;
   margin: 0;
-  font-family: 'Helvica',sans-serif;
+  font-family: 'Montserrat',sans-serif;
 }
 
 #header{
@@ -72,12 +73,12 @@ a:hover{
   margin: 0 auto;
   padding: 60px 0;
 }
-.post-author img{
+.post-category img{
   width:50px;
   height: 50px;
   vertical-align: middle;
 }
-.post-author span{
+.post-category span{
   margin-left: 16px;
   font-weight: bolder;
 
@@ -114,7 +115,7 @@ input{
   caret-color: #1abc9c;
   font-size: 12;
   }
-  button{
+button{
     
     background-color: inherit;
     border-color: #1abc9c;
