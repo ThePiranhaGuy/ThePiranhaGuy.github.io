@@ -120,7 +120,11 @@ a:hover{
   background-color: #131313;
 }
 h1,h2,h3,h4{
+<<<<<<< HEAD
   color: #333;
+=======
+  color: #1abc9c;
+>>>>>>> b8195e2b875ae07e1dbc4ab252671d76e60c84e8
 }
 p{
   line-height: 1.5;
