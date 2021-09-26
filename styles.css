@@ -1,13 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
-
-html{
-    scroll-behavior: smooth;
-}
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 body{
   color: #999;
   background-color: #111;
   margin: 0;
-  font-family: 'Ubuntu',sans-serif;
+  font-family: 'Montserrat',sans-serif;
 }
 
 #header{
@@ -29,10 +25,8 @@ body{
 }
 #header-nav li{
   display: inline;
-  padding-left: 20px;
+  padding-left: 5px;
 }
-
-
 #header a{
   color: white;
   text-decoration: none;
@@ -66,8 +60,6 @@ body{
 #footer p{
   color: white;
 }
-
-
 a{
   color: #1abc9c;
   text-decoration: none;
@@ -76,10 +68,11 @@ a:hover{
   color: #f6a623;
 }
 
+
 .post, .about, .Error{
   max-width: 800px;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 0 0;
 }
 .post-category img{
   width:50px;
@@ -101,11 +94,7 @@ a:hover{
 
 }
 .post-container{
-    scroll-snap-align: center ;
-}
-
-.post-container{
-  padding: 50px;
+  padding: 50px ;
 }
 
 .post-container:nth-child(even) {
@@ -131,6 +120,7 @@ input{
   caret-color: #1abc9c;
   font-size: 12;
   }
+  
 button{
     
     background-color: inherit;
