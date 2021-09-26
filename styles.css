@@ -105,7 +105,7 @@ a:hover{
 }
 
 .post-container{
-  padding: 50px
+  padding: 50px;
 }
 
 .post-container:nth-child(even) {
