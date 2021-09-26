@@ -31,15 +31,7 @@ body{
   display: inline;
   padding-left: 20px;
 }
-@media only screen and (max-width: 768px) {
-    header-nav {
-        position: relative;
-        top: 0;
-    }
-    header-nav li {
-        display: block;
-    }
-}
+
 
 #header a{
   color: white;
@@ -75,14 +67,6 @@ body{
   color: white;
 }
 
-@media only screen and (max-width: 768px) {
-    footer {
-        position: relative;
-    }
-    footer h4,p {
-        display: block;
-    }
-}
 
 a{
   color: #1abc9c;
@@ -119,6 +103,11 @@ a:hover{
 .post-container{
     scroll-snap-align: center ;
 }
+
+.post-container{
+  padding: 50px
+}
+
 .post-container:nth-child(even) {
   background-color: #131313;
 }
