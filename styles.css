@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 body{
   color: #999;
-  background-color: #201c1c;
+  background-color: #111;
   margin: 0;
   font-family: 'Montserrat',sans-serif;
 }
@@ -60,6 +60,7 @@ body{
 #footer p{
   color: white;
 }
+
 a{
   color: #1abc9c;
   text-decoration: none;
@@ -82,6 +83,7 @@ a:hover{
 .post-category span{
   margin-left: 16px;
   font-weight: bolder;
+  font-size: larger;
 
 }
 .post-date{
@@ -94,17 +96,34 @@ a:hover{
 
 }
 .post-container{
-  padding: 50px ;
+  padding: 20px ;
 }
 
 .post-container:nth-child(even) {
-  background-color: #1c1c1c;
+  background-color: #131313;
 }
+
+.about-author img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  max_width:50px;
+  width: 50%;
+}
+
 h1,h2,h3,h4{
   color: #1abc9c;
 }
 p{
   line-height: 1.5;
+}
+hr{
+  border: 1px solid; 
+  color: #1abc9c;
+  width: 20px;
+
 }
 
 .about,.Error{
